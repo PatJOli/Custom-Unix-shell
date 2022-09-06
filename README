@@ -1,0 +1,11 @@
+Ash is runnable in a linux enviroment with the command ./ash
+Ash is able to execute normal unix commands
+Ash can change directory with cd
+Ash can print history with command history/h, and is able to execute previous commands from history with history {history number} or h {history number}
+Can run multiple commands through a pipeline with |
+Can run commands in the background by ending command with &
+can view commands in background with jobs
+can stop commands runnning in foreground with ctr + z
+can restart commands in foreground with fg to start the most recent command in the foreground and fg {Job number} to start a specfic job in the foreground
+can restart commands in background with bg to start the most recent command in the background and bg {Job number} to start a specfic job in the background
+can call kill {Job number} to end a job
